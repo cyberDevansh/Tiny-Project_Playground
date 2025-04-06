@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https:; font-src 'self' https://cdnjs.cloudflare.com;">
+    <meta name="X-Content-Type-Options" content="nosniff">
+    <meta name="X-Frame-Options" content="DENY">
+    <meta name="X-XSS-Protection" content="1; mode=block">
+    <meta name="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <title>धर्मो रक्षति रक्षितः - Keylogger</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="theme-switch">
+        <div class="bulb"><i class="fas fa-lightbulb"></i></div>
+    </div>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo"><h2><i class="fa fa-cog fa-spin"></i> CyberTools</h2></div>
+            <ul class="nav-links">
+                <li><a href="dashboard.html"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="keylogger.html" class="active"><i class="fas fa-keyboard"></i> Keylogger</a></li>
+                <li><a href="steganography.html"><i class="fas fa-user-secret"></i> Steganography</a></li>
+                <li><a href="pass-manager.html"><i class="fas fa-key"></i> Password Manager</a></li>
+                <li><a href="pass-generator.html"><i class="fas fa-random"></i> Password Generator</a></li>
+                <li><a href="malware-detector.html"><i class="fas fa-shield-alt"></i> Malware Detector <span class="coming-soon">Coming Soon</span></a></li>
+                <li><a href="developers.html"><i class="fas fa-info-circle"></i> Developers</a></li>
+                <li><a href="thank-you.html"><i class="fas fa-heart"></i> Thank You</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <div class="content animate__animated animate__fadeIn">
+                <h1 class="section-title">Keylogger Demonstration</h1>
+                
+                <div class="info-card">
+                    <h2><i class="fas fa-info-circle"></i> About This Tool</h2>
+                    <p>This educational keylogger demonstration shows how malicious software can record your keystrokes. It's designed to raise awareness about cybersecurity threats and promote safe online practices.</p>
+                </div>
+
+                <div class="interactive-demo">
+                    <div class="demo-controls">
+                        <button id="startMonitoring" class="secure-button">
+                            <i class="fas fa-play"></i> Start Monitoring
+                        </button>
+                        <button id="stopMonitoring" class="secure-button" disabled>
+                            <i class="fas fa-stop"></i> Stop Monitoring
+                        </button>
+                        <button id="clearLog" class="secure-button">
+                            <i class="fas fa-trash"></i> Clear Log
+                        </button>
+                    </div>
+
+                    <div class="demo-area">
+                        <div class="input-area">
+                            <textarea id="typingArea" class="secure-input" placeholder="Type here to see how keylogging works..."></textarea>
+                        </div>
+                        <div class="output-area">
+                            <h3><i class="fas fa-list"></i> Keystroke Log</h3>
+                            <div id="keystrokeLog" class="log-container"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h2><i class="fas fa-shield-alt"></i> Security Implications</h2>
+                    <ul>
+                        <li><i class="fas fa-exclamation-triangle"></i> Real keyloggers can capture sensitive information</li>
+                        <li><i class="fas fa-user-secret"></i> They often run silently in the background</li>
+                        <li><i class="fas fa-lock"></i> Can record passwords and personal data</li>
+                        <li><i class="fas fa-clock"></i> May store data for extended periods</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h2><i class="fas fa-check-circle"></i> Protection Measures</h2>
+                    <ul>
+                        <li><i class="fas fa-keyboard"></i> Use on-screen keyboards for sensitive input</li>
+                        <li><i class="fas fa-shield-virus"></i> Install reputable anti-malware software</li>
+                        <li><i class="fas fa-sync"></i> Regularly update your security software</li>
+                        <li><i class="fas fa-user-lock"></i> Enable two-factor authentication</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h2><i class="fas fa-graduation-cap"></i> Educational Value</h2>
+                    <p>This demonstration helps users understand:</p>
+                    <ul>
+                        <li><i class="fas fa-lightbulb"></i> How keyloggers operate</li>
+                        <li><i class="fas fa-exclamation-circle"></i> The importance of cybersecurity</li>
+                        <li><i class="fas fa-shield-alt"></i> Ways to protect against such threats</li>
+                        <li><i class="fas fa-book"></i> Best practices for online safety</li>
+                    </ul>
+                </div>
+
+                <div class="info-card disclaimer">
+                    <h2><i class="fas fa-exclamation-triangle"></i> Important Notice</h2>
+                    <p>This tool is for educational purposes only. It demonstrates how keyloggers work to raise awareness about cybersecurity threats. No data is stored or transmitted outside your browser.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
