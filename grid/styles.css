@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+
+.container {
+    display: grid;
+    gap: 0px;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.white{
+    background-color: #efd5aa;
+    height: 100px;
+    width: 100px;
+}
+.black{
+    background-color: #aa7c54;
+    height: 100px;
+    width: 100px;
+}
